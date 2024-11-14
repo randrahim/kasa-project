@@ -11,7 +11,7 @@ function App() {
       <div className="App">
         <h1>Hello World</h1>
         <Routes>
-          <Route path="./pages/About.jsx" element={<About />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </div>
     </Router>
