@@ -5,14 +5,25 @@ import About from "./pages/About.jsx";
 import Header from "./components/Header/Header.jsx";
 import Footer from "./components/Footer/Footer";
 
+function NotFound() {
+  return (
+    <div className="not-found">
+      <h1>404</h1>
+      <p>Oops! The page you’re looking for doesn’t exist.</p>
+      <a href="/">Return to home page</a>
+    </div>
+  );
+}
+
 function App() {
   return (
     <Router>
       <Header />
       <div className="App">
-        <h1>Hello World</h1>
         <Routes>
+          <Route path="/" element={<h1>Welcome to Home Page</h1>} />
           <Route path="/about" element={<About />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
       <Footer />
