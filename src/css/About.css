@@ -1,5 +1,4 @@
 .about-container {
-  /* padding: 20px; */
   text-align: center;
 }
 
@@ -12,8 +11,7 @@
   border-radius: 25px;
   max-height: 300px;
   margin: 0px auto;
-  /* padding: 50px; */
-  background-clip: content-box;
+  object-fit: cover;
 }
 
 .accordion {
@@ -47,7 +45,7 @@
 }
 
 .accordion-item.active .accordion-title {
-  background-color: #ff4040;
+  background-color: #ff6060;
 }
 
 .accordion-title span {
