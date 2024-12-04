@@ -21,8 +21,7 @@
 
 .accordion-item {
   margin-bottom: 10px;
-  border: 1px solid #ff6060;
-  border-radius: 5px;
+  border-radius: 10px;
   overflow: hidden;
 }
 
@@ -30,18 +29,19 @@
   background-color: #ff6060;
   color: white;
   padding: 15px;
-  font-size: 16px;
+  font-size: 20px;
   display: flex;
   justify-content: space-between;
   cursor: pointer;
+  font-weight: 700;
 }
 
 .accordion-content {
   padding: 15px;
-  background-color: #ffeaea;
-  color: #333;
-  font-size: 14px;
+  color: #222;
+  font-size: 18px;
   text-align: left;
+  line-height: 2.1rem;
 }
 
 .accordion-item.active .accordion-title {
