@@ -2,10 +2,16 @@ import React, { useState } from "react";
 import "../css/About.css";
 
 function About() {
-  const [activeIndex, setActiveIndex] = useState(null);
+  const [openAccordions, setOpenAccordions] = useState([]); // Array to track open accordions
 
   const toggleAccordion = (index) => {
-    setActiveIndex(activeIndex === index ? null : index);
+    if (openAccordions.includes(index)) {
+      // If already open, remove it from the array (close it)
+      setOpenAccordions(openAccordions.filter((i) => i !== index));
+    } else {
+      // Otherwise, add it to the array (open it)
+      setOpenAccordions([...openAccordions, index]);
+    }
   };
 
   const accordionItems = [
@@ -45,7 +51,7 @@ function About() {
           <div
             key={index}
             className={`accordion-item ${
-              activeIndex === index ? "active" : ""
+              openAccordions.includes(index) ? "active" : ""
             }`}
           >
             <div
@@ -53,9 +59,9 @@ function About() {
               onClick={() => toggleAccordion(index)}
             >
               {item.title}
-              <span>{activeIndex === index ? "▲" : "▼"}</span>
+              <span>{openAccordions.includes(index) ? "▲" : "▼"}</span>
             </div>
-            {activeIndex === index && (
+            {openAccordions.includes(index) && (
               <div className="accordion-content">{item.content}</div>
             )}
           </div>
