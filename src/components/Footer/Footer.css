@@ -2,9 +2,9 @@
   background-color: #131313;
   color: white;
   text-align: center;
-  padding: 40px 0;
+  padding: 30px 0;
   font-size: 14px;
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
   bottom: 0;
 }
@@ -12,4 +12,9 @@
 .footer p {
   margin: 0;
   font-family: Arial, sans-serif;
+}
+
+.logo img {
+  width: 100px;
+  margin-bottom: 10px;
 }
