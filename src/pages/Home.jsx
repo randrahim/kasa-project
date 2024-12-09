@@ -1,17 +1,7 @@
-// import React from "react";
-
-// function Home() {
-//   return (
-//     <div>
-//       <h1>This is Home page</h1>
-//     </div>
-//   );
-// }
-
-// export default Home;
 import React from "react";
 import "../css/Home.css";
 // import "../css/About.css";
+import data from "../data/data.js";
 
 const Home = () => {
   return (
@@ -23,13 +13,12 @@ const Home = () => {
 
       {/* Rental Properties Grid */}
       <section className="properties-grid">
-        {Array(6)
-          .fill()
-          .map((_, index) => (
-            <div key={index} className="property-card">
-              <p>Title of the rental property</p>
-            </div>
-          ))}
+        {data.map((item) => (
+          <div key={item.id} className="property-card">
+            <img src={item.cover} alt={item.title} className="property-image" />
+            <p className="property-title">{item.title}</p>
+          </div>
+        ))}
       </section>
     </div>
   );
