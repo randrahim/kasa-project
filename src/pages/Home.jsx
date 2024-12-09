@@ -1,6 +1,5 @@
 import React from "react";
 import "../css/Home.css";
-// import "../css/About.css";
 import data from "../data/data.js";
 
 const Home = () => {
