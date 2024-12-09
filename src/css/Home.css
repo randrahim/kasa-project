@@ -10,7 +10,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 22px;
+  border-radius: 25px;
 }
 
 .hero-section::before {
@@ -22,7 +22,7 @@
   height: 100%;
   background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
   z-index: 1; /* Ensure it stays below the text */
-  border-radius: 22px;
+  border-radius: 25px;
 }
 
 .hero-section h1 {
@@ -36,20 +36,26 @@
 .properties-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Three cards per row */
-  gap: 20px; /* Space between cards */
-  padding: 40px 20px;
+  gap: 40px; /* Space between cards */
+  background-color: #f6f6f6;
+  margin: 50px auto;
+  padding: 40px;
+  border-radius: 25px;
 }
 
 .property-card {
   background-color: #ff6f61;
   color: white;
   text-align: center;
-  padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  font-size: 1rem; /* Adjust text size to match Figma */
+  font-size: 1rem;
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: flex-end; /* Align content vertically at the bottom */
   height: 340px;
-  width: 340px;
+  position: relative;
+  padding: 10px;
 }
 
 /* Responsive Design */
