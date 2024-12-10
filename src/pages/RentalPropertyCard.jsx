@@ -53,12 +53,12 @@ const RentalPropertyCard = () => {
           {/* Right Section */}
           <div className="property-header-right">
             <div className="host-info">
+              <p>{property.host.name}</p>
               <img
                 src={property.host.picture}
                 alt={property.host.name}
                 className="host-picture"
               />
-              <p>{property.host.name}</p>
             </div>
             <div className="rating">
               {Array.from({ length: property.rating }).map((_, index) => (

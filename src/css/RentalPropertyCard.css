@@ -36,8 +36,8 @@
 .property-header-right {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
+  align-items: flex-end;
+  justify-content: right;
 }
 
 .property-header-left h1 {
@@ -83,12 +83,13 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  border: 3px solid #ff6f61;
+  /* border: 3px solid #ff6f61; */
 }
 
 .host-info p {
-  font-size: 1rem;
+  font-size: 2rem;
   color: #333;
+  word-wrap: break-word;
 }
 
 .rating {
@@ -99,8 +100,8 @@
 }
 
 .rating span {
-  font-size: 1.5rem;
-  color: gold;
+  font-size: 3rem;
+  color: #ff6f61;
 }
 
 /* Dropdown Section */
