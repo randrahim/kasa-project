@@ -1,98 +1,141 @@
-/* Container */
-.rental-property-container {
+/* Main Container */
+.rental-property-card {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
 }
 
-/* Header */
-.rental-property-header {
-  text-align: center;
+/* Property Header Section */
+.property-header {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 20px;
 }
 
-.rental-property-header h1 {
-  font-size: 2.5rem;
-  margin: 10px 0;
-}
-
-.rental-property-header p {
-  font-size: 1.2rem;
-  color: gray;
-}
-
-/* Main Image */
-.rental-property-image img {
+.property-image {
   width: 100%;
   height: auto;
-  border-radius: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
 }
 
-/* Details Section */
-.rental-property-details {
+.property-header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   margin-top: 20px;
+}
+
+.property-header-left {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.property-header-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.property-header-left h1 {
+  font-size: 2.5rem;
+  color: #e74c3c;
+  margin: 10px 0;
+  text-align: left;
+}
+
+.property-header-left p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 15px;
+  text-align: left;
 }
 
 /* Tags */
 .tags {
   display: flex;
   gap: 10px;
-  margin: 20px 0;
+  margin-bottom: 20px;
 }
 
 .tag {
   background-color: #ff6f61;
   color: white;
-  padding: 5px 10px;
+  padding: 5px 15px;
   border-radius: 5px;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 
-/* Host Info */
+/* Host and Rating Section */
 .host-info {
   display: flex;
   align-items: center;
-  gap: 10px;
-  margin: 20px 0;
+  gap: 15px;
 }
 
-.host-info img {
-  width: 50px;
-  height: 50px;
+.host-picture {
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
+  border: 3px solid #ff6f61;
 }
 
 .host-info p {
-  font-size: 1.2rem;
-}
-
-/* Rating */
-.rating {
-  font-size: 1.5rem;
-  color: gold;
-  margin-bottom: 20px;
-}
-
-/* Description */
-.description h2,
-.amenities h2 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-}
-
-.description p {
   font-size: 1rem;
-  line-height: 1.6;
   color: #333;
 }
 
-/* Amenities */
-.amenities ul {
-  list-style: none;
-  padding: 0;
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
 }
 
-.amenities li {
-  margin: 5px 0;
+.rating span {
+  font-size: 1.5rem;
+  color: gold;
+}
+
+/* Description and Amenities Section */
+.property-details {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.detail-box {
+  flex: 1;
+  background-color: #ffe6e6;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.detail-box h2 {
+  font-size: 1.2rem;
+  color: #e74c3c;
+  margin-bottom: 10px;
+}
+
+.detail-box p,
+.detail-box ul {
   font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.detail-box ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.detail-box li {
+  margin-bottom: 10px;
 }
