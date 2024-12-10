@@ -1,37 +1,62 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
-import data from "../data"; // Import your data
-import "./Home.css";
+import { useParams } from "react-router-dom";
+import data from "../data/data";
 import "../css/RentalPropertyCard.css";
 
-const Home = () => {
-  const navigate = useNavigate();
+const RentalPropertyCard = () => {
+  const { id } = useParams();
+  const property = data.find((item) => item.id === id);
 
-  const handleCardClick = (id) => {
-    navigate(`/property/${id}`);
-  };
+  if (!property) {
+    return (
+      <div className="not-found">
+        <h1>404</h1>
+        <p>Property not found.</p>
+      </div>
+    );
+  }
 
   return (
-    <div className="home-container">
-      <section className="hero-section">
-        <h1>At home, everywhere, and anywhere</h1>
+    <div className="rental-property-card">
+      <section className="property-header">
+        <img
+          src={property.cover}
+          alt={property.title}
+          className="property-image"
+        />
+        <h1>{property.title}</h1>
+        <p>{property.location}</p>
+        <div className="tags">
+          {property.tags.map((tag, index) => (
+            <span key={index} className="tag">
+              {tag}
+            </span>
+          ))}
+        </div>
       </section>
-      <section className="properties-grid">
-        {data.map((item) => (
-          <div
-            key={item.id}
-            className="property-card"
-            onClick={() => handleCardClick(item.id)}
-          >
-            <img src={item.cover} alt={item.title} className="property-image" />
-            <div className="property-title-overlay">
-              <p>{item.title}</p>
-            </div>
-          </div>
-        ))}
+      <section className="property-details">
+        <h2>Description</h2>
+        <p>{property.description}</p>
+
+        <h2>Host</h2>
+        <div className="host-info">
+          <img
+            src={property.host.picture}
+            alt={property.host.name}
+            className="host-picture"
+          />
+          <p>{property.host.name}</p>
+        </div>
+
+        <h2>Amenities</h2>
+        <ul>
+          {property.equipments.map((equipment, index) => (
+            <li key={index}>{equipment}</li>
+          ))}
+        </ul>
       </section>
     </div>
   );
 };
 
-export default Home;
+export default RentalPropertyCard;
