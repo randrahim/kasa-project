@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import data from "../data/data";
 import "../css/RentalPropertyCard.css";
@@ -6,6 +6,9 @@ import "../css/RentalPropertyCard.css";
 const RentalPropertyCard = () => {
   const { id } = useParams();
   const property = data.find((item) => item.id === id);
+
+  const [isDescriptionOpen, setIsDescriptionOpen] = useState(false);
+  const [isAmenitiesOpen, setIsAmenitiesOpen] = useState(false);
 
   if (!property) {
     return (
@@ -15,6 +18,14 @@ const RentalPropertyCard = () => {
       </div>
     );
   }
+
+  const toggleDescription = () => {
+    setIsDescriptionOpen(!isDescriptionOpen);
+  };
+
+  const toggleAmenities = () => {
+    setIsAmenitiesOpen(!isAmenitiesOpen);
+  };
 
   return (
     <div className="rental-property-card">
@@ -65,17 +76,38 @@ const RentalPropertyCard = () => {
 
       {/* Description and Amenities Section */}
       <section className="property-details">
-        <div className="detail-box">
-          <h2>Description</h2>
-          <p>{property.description}</p>
+        {/* Description Dropdown */}
+        <div className="dropdown">
+          <div className="dropdown-header" onClick={toggleDescription}>
+            <span>Description</span>
+            <span
+              className={`dropdown-arrow ${isDescriptionOpen ? "open" : ""}`}
+            >
+              ⬆
+            </span>
+          </div>
+          <div
+            className={`dropdown-content ${isDescriptionOpen ? "open" : ""}`}
+          >
+            <p>{property.description}</p>
+          </div>
         </div>
-        <div className="detail-box">
-          <h2>Amenities</h2>
-          <ul>
-            {property.equipments.map((equipment, index) => (
-              <li key={index}>{equipment}</li>
-            ))}
-          </ul>
+
+        {/* Amenities Dropdown */}
+        <div className="dropdown">
+          <div className="dropdown-header" onClick={toggleAmenities}>
+            <span>Amenities</span>
+            <span className={`dropdown-arrow ${isAmenitiesOpen ? "open" : ""}`}>
+              ⬆
+            </span>
+          </div>
+          <div className={`dropdown-content ${isAmenitiesOpen ? "open" : ""}`}>
+            <ul>
+              {property.equipments.map((equipment, index) => (
+                <li key={index}>{equipment}</li>
+              ))}
+            </ul>
+          </div>
         </div>
       </section>
     </div>
