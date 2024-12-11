@@ -14,11 +14,12 @@
   margin-bottom: 20px;
 }
 
-.property-image {
+.property-image-carousel {
   width: 100%;
-  /* height: auto; */
   border-radius: 8px;
   margin-bottom: 20px;
+  height: 415px;
+  object-fit: cover;
 }
 
 .property-header-content {

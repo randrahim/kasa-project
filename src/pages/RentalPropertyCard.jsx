@@ -34,7 +34,7 @@ const RentalPropertyCard = () => {
         <img
           src={property.cover}
           alt={property.title}
-          className="property-image"
+          className="property-image-carousel"
         />
         <div className="property-header-content">
           {/* Left Section */}
