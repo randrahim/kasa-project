@@ -19,7 +19,7 @@ const data = [
         "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg",
     },
     rating: "5",
-    location: "Ile-de-France â€“ Paris 17th arrondissement",
+    location: "Ile-de-France - Paris 17th arrondissement",
     equipments: [
       "Standard Amenities",
       "Microwave",
@@ -50,7 +50,7 @@ const data = [
         "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-1.jpg",
     },
     rating: "4",
-    location: "Ile-de-France â€“ Paris 10th arrondissement",
+    location: "Ile-de-France - Paris 10th arrondissement",
     equipments: [
       "Parking",
       "Hair dryer",
@@ -59,7 +59,7 @@ const data = [
       "Fully equipped kitchen",
       "Television",
     ],
-    tags: ["Canal Saint-Martin", "RÃ©publique", "Apartment"],
+    tags: ["Canal Saint-Martin", "Republique", "Apartment"],
   },
   {
     id: "46d188c5",
@@ -80,7 +80,7 @@ const data = [
         "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-2.jpg",
     },
     rating: "3",
-    location: "Ile-de-France â€“ Paris 20th arrondissement",
+    location: "Ile-de-France - Paris 20th arrondissement",
     equipments: ["Wi-Fi", "Fully equipped kitchen", "Television", "Hair dryer"],
     tags: ["Buttes Chaumont", "LaumiÃ¨re", "Studio"],
   },
@@ -103,7 +103,7 @@ const data = [
         "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-1.jpg",
     },
     rating: "3",
-    location: "Ile-de-France â€“ Paris 11th arrondissement",
+    location: "Ile-de-France - Paris 11th arrondissement",
     equipments: [
       "Microwave",
       "Wi-Fi",
@@ -134,7 +134,7 @@ const data = [
         "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-2.jpg",
     },
     rating: "5",
-    location: "Ile-de-France â€“ Paris 10th arrondissement",
+    location: "Ile-de-France - Paris 10th arrondissement",
     equipments: [
       "American refrigerator",
       "Hair dryer",
@@ -164,7 +164,7 @@ const data = [
         "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-3.jpg",
     },
     rating: "5",
-    location: "Ile-de-France â€“ Paris 18th arrondissement",
+    location: "Ile-de-France - Paris 18th arrondissement",
     equipments: ["Separate bedroom", "Parking"],
     tags: ["Montmartre", "Cultural", "Charming"],
   },
@@ -187,7 +187,7 @@ const data = [
         "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-4.jpg",
     },
     rating: "3",
-    location: "Ile-de-France â€“ Paris 18th arrondissement",
+    location: "Ile-de-France - Paris 18th arrondissement",
     equipments: [
       "Bathroom",
       "Refrigerator",
@@ -214,12 +214,12 @@ const data = [
     description:
       "This superb apartment will surprise you with its charm. Fully refurbished and tastefully equipped. The spacious rooms will make you wonder if you're really in Paris. Simply step outside, and you'll find yourself in the heart of the finest attractions in Parisâ€”the Louvre, the Eiffel Tower, and the Grand Palais are all a short walk away. Come discover Paris!",
     host: {
-      name: "SÃ©bastien Fournier",
+      name: "Sebastien Fournier",
       picture:
         "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-5.jpg",
     },
     rating: "5",
-    location: "Ile-de-France â€“ Paris 6th arrondissement",
+    location: "Ile-de-France - Paris 6th arrondissement",
     equipments: [
       "Wi-Fi",
       "Hair dryer",
@@ -250,7 +250,7 @@ const data = [
         "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-6.jpg",
     },
     rating: "4",
-    location: "Ile-de-France â€“ Paris 14th arrondissement",
+    location: "Ile-de-France - Paris 14th arrondissement",
     equipments: [
       "Air conditioning",
       "Washing machine",
@@ -279,7 +279,7 @@ const data = [
         "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-6.jpg",
     },
     rating: "3",
-    location: "Ile-de-France â€“ Paris 11th arrondissement",
+    location: "Ile-de-France - Paris 11th arrondissement",
     equipments: [
       "View of the park",
       "Heating",
@@ -309,13 +309,13 @@ const data = [
         "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-7.jpg",
     },
     rating: "4",
-    location: "Ile-de-France â€“ Paris 11th arrondissement",
+    location: "Ile-de-France - Paris 11th arrondissement",
     equipments: ["Sofa bed", "Oven", "Hair dryer", "Wi-Fi"],
     tags: ["Marais", "Studio", "Park"],
   },
   {
     id: "5323c29b",
-    title: "Practical RÃ©publique Studio",
+    title: "Practical Republique Studio",
     cover:
       "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-3.jpg",
     pictures: [
@@ -325,16 +325,16 @@ const data = [
       "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-5.jpg",
     ],
     description:
-      "Ideally located near Place de la RÃ©publique, this practical studio is perfect for discovering Paris. A five-minute walk from five metro lines and close to all major landmarks, you'll be able to make the best of your time in the capital.",
+      "Ideally located near Place de la Republique, this practical studio is perfect for discovering Paris. A five-minute walk from five metro lines and close to all major landmarks, you'll be able to make the best of your time in the capital.",
     host: {
       name: "Sarah Devit",
       picture:
         "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-8.jpg",
     },
     rating: "3",
-    location: "Ile-de-France â€“ Paris 3rd arrondissement",
+    location: "Ile-de-France - Paris 3rd arrondissement",
     equipments: ["Storage", "Bed", "Hair dryer", "Wi-Fi", "TV", "Kettle"],
-    tags: ["Marais", "RÃ©publique", "Studio", "Close to the metro", "Shopping"],
+    tags: ["Marais", "Republique", "Studio", "Close to the metro", "Shopping"],
   },
   {
     id: "af6d2d48",
@@ -356,7 +356,7 @@ const data = [
         "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-8.jpg",
     },
     rating: "5",
-    location: "Ile-de-France â€“ Ã‰couen",
+    location: "Ile-de-France - Ã‰couen",
     equipments: [
       "Bathroom",
       "Fully equipped kitchen",
@@ -386,7 +386,7 @@ const data = [
         "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-9.jpg",
     },
     rating: "4",
-    location: "Ile-de-France â€“ Arnouville",
+    location: "Ile-de-France - Arnouville",
     equipments: [
       "Bathroom",
       "Fully equipped kitchen",
@@ -401,7 +401,7 @@ const data = [
   },
   {
     id: "ba55a0cc",
-    title: "Five-Room House in Le VÃ©sinet",
+    title: "Five-Room House in Le Vesinet",
     cover:
       "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-14-1.jpg",
     pictures: [
@@ -419,7 +419,7 @@ const data = [
         "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-9.jpg",
     },
     rating: "3",
-    location: "Ile-de-France â€“ Arnouville",
+    location: "Ile-de-France - Arnouville",
     equipments: [
       "Kettle",
       "Bathroom",
@@ -436,7 +436,7 @@ const data = [
   },
   {
     id: "1e181317",
-    title: "Luxury Loft in La DÃ©fense",
+    title: "Luxury Loft in La Defense",
     cover:
       "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-1.jpg",
     pictures: [
@@ -447,14 +447,14 @@ const data = [
       "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-5.jpg",
     ],
     description:
-      "If you're hunting for the perfect place to drop your bags between business meetings, look no further. Our loft is the ideal location. Located in the heart of La DÃ©fense, it has all the amenities you need to feel right at home.",
+      "If you're hunting for the perfect place to drop your bags between business meetings, look no further. Our loft is the ideal location. Located in the heart of La Defense, it has all the amenities you need to feel right at home.",
     host: {
       name: "Julie Donatella",
       picture:
         "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-10.jpg",
     },
     rating: "3",
-    location: "Ile-de-France â€“ La DÃ©fense",
+    location: "Ile-de-France - La Defense",
     equipments: [
       "Bay window",
       "Television",
@@ -464,7 +464,7 @@ const data = [
       "Microwave",
       "Parking",
     ],
-    tags: ["La DÃ©fense", "Loft", "Luxurious"],
+    tags: ["La Defense", "Loft", "Luxurious"],
   },
   {
     id: "1e180563",
@@ -513,7 +513,7 @@ const data = [
         "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-4.jpg",
     },
     rating: "2",
-    location: "Ile-de-France â€“ Paris 20th arrondissement",
+    location: "Ile-de-France - Paris 20th arrondissement",
     equipments: ["Kettle", "Wi-Fi", "Microwave"],
     tags: ["View of the park", "Metro"],
   },
@@ -535,7 +535,7 @@ const data = [
         "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-11.jpg",
     },
     rating: "4",
-    location: "Ile-de-France â€“ Paris 13th",
+    location: "Ile-de-France - Paris 13th",
     equipments: [
       "Standard Amenities",
       "Oven",
@@ -561,7 +561,7 @@ const data = [
         "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg",
     },
     rating: "4",
-    location: "Ile-de-France â€“ Paris 13th",
+    location: "Ile-de-France - Paris 13th",
     equipments: [
       "Wi-Fi",
       "Standard Amenities",
