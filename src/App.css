@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  margin: 10px 100px;
+  margin: 40px auto;
+  max-width: 1024px;
 }
 
 /***** The styles of 404  *****/

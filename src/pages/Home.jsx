@@ -9,6 +9,7 @@ const Home = () => {
   const handleCardClick = (id) => {
     navigate(`/property/${id}`);
   };
+
   return (
     <div className="home-container">
       {/* Hero Section */}
