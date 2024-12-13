@@ -12,7 +12,7 @@ const data = [
       "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg",
     ],
     description:
-      "Your home away from home. Youâ€™ll instantly feel at home in our apartmentâ€”whether youâ€™re coming from the other side of the world or from just a few metro stops away.",
+      "Your home away from home. You'll instantly feel at home in our apartmentâ€”whether you're coming from the other side of the world or from just a few metro stops away.",
     host: {
       name: "Nathalie Jean",
       picture:
@@ -43,7 +43,7 @@ const data = [
       "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-6.jpg",
     ],
     description:
-      "Experience the charm of Parisian life in this stunning apartment. Only a three-minute walk from Canal Saint-Martin, youâ€™ll be close to public transportation and lots of shopping. The apartment comes fully equipped and has parking available for cars.",
+      "Experience the charm of Parisian life in this stunning apartment. Only a three-minute walk from Canal Saint-Martin, you'll be close to public transportation and lots of shopping. The apartment comes fully equipped and has parking available for cars.",
     host: {
       name: "Della Case",
       picture:
@@ -96,7 +96,7 @@ const data = [
       "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-4.jpg",
     ],
     description:
-      "Come discover Paris while staying in this cozy apartment in the heart of the 11th arrondissement. The view over the residential park is a welcome break from long days sightseeing in Franceâ€™s capital. For those of you who like to party, you can enjoy Parisian nightlife on Rue Jean Pierre Timbaud, just 5 minutes from the apartment.",
+      "Come discover Paris while staying in this cozy apartment in the heart of the 11th arrondissement. The view over the residential park is a welcome break from long days sightseeing in France's capital. For those of you who like to party, you can enjoy Parisian nightlife on Rue Jean Pierre Timbaud, just 5 minutes from the apartment.",
     host: {
       name: "Della Case",
       picture:
@@ -127,7 +127,7 @@ const data = [
       "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-6.jpg",
     ],
     description:
-      "Youâ€™ll absolutely love this fully renovated loft with its luxury furnishings. Conveniently located in the 10th arrondissement, getting around Paris is a breeze.",
+      "You'll absolutely love this fully renovated loft with its luxury furnishings. Conveniently located in the 10th arrondissement, getting around Paris is a breeze.",
     host: {
       name: "Franck Maher",
       picture:
@@ -146,7 +146,7 @@ const data = [
   },
   {
     id: "f72a452f",
-    title: "Artistâ€™s Studio",
+    title: "Artist's Studio",
     cover:
       "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-1.jpg",
     pictures: [
@@ -157,7 +157,7 @@ const data = [
       "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-5.jpg",
     ],
     description:
-      "Immerse yourself in Parisian culture in this tastefully decorated former artistâ€™s studio in the heart of Montmartre.",
+      "Immerse yourself in Parisian culture in this tastefully decorated former artist's studio in the heart of Montmartre.",
     host: {
       name: "Line Rolland",
       picture:
@@ -180,7 +180,7 @@ const data = [
       "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-6-4.jpg",
     ],
     description:
-      "This fully functional studio will be a perfect foothold for your Parisian adventures. Ideally located near metro lines 2 and 4, youâ€™ll enjoy quick access to all the tourist attractions in Paris.",
+      "This fully functional studio will be a perfect foothold for your Parisian adventures. Ideally located near metro lines 2 and 4, you'll enjoy quick access to all the tourist attractions in Paris.",
     host: {
       name: "Hugo Perrier",
       picture:
@@ -212,7 +212,7 @@ const data = [
       "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-7-6.jpg",
     ],
     description:
-      "This superb apartment will surprise you with its charm. Fully refurbished and tastefully equipped. The spacious rooms will make you wonder if youâ€™re really in Paris. Simply step outside, and youâ€™ll find yourself in the heart of the finest attractions in Parisâ€”the Louvre, the Eiffel Tower, and the Grand Palais are all a short walk away. Come discover Paris!",
+      "This superb apartment will surprise you with its charm. Fully refurbished and tastefully equipped. The spacious rooms will make you wonder if you're really in Paris. Simply step outside, and you'll find yourself in the heart of the finest attractions in Parisâ€”the Louvre, the Eiffel Tower, and the Grand Palais are all a short walk away. Come discover Paris!",
     host: {
       name: "SÃ©bastien Fournier",
       picture:
@@ -243,7 +243,7 @@ const data = [
       "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-8-5.jpg",
     ],
     description:
-      "Paris awaits you! Come discover the city of love with family or friends in a stylish apartment. Youâ€™ll find all the shopping you need just a few minutes from the apartment. Its proximity to Montparnasse station also makes it an ideal choice for those traveling by train.",
+      "Paris awaits you! Come discover the city of love with family or friends in a stylish apartment. You'll find all the shopping you need just a few minutes from the apartment. Its proximity to Montparnasse station also makes it an ideal choice for those traveling by train.",
     host: {
       name: "Adrien Chiran",
       picture:
@@ -325,7 +325,7 @@ const data = [
       "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-5.jpg",
     ],
     description:
-      "Ideally located near Place de la RÃ©publique, this practical studio is perfect for discovering Paris. A five-minute walk from five metro lines and close to all major landmarks, youâ€™ll be able to make the best of your time in the capital.",
+      "Ideally located near Place de la RÃ©publique, this practical studio is perfect for discovering Paris. A five-minute walk from five metro lines and close to all major landmarks, you'll be able to make the best of your time in the capital.",
     host: {
       name: "Sarah Devit",
       picture:
@@ -379,7 +379,7 @@ const data = [
       "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-13-6.jpg",
     ],
     description:
-      "Looking for a place to celebrate a birthday with friends thatâ€™s still close to Paris? Look no further! This fully equipped house is the ideal place to spend time together.",
+      "Looking for a place to celebrate a birthday with friends that's still close to Paris? Look no further! This fully equipped house is the ideal place to spend time together.",
     host: {
       name: "Karen Guillet",
       picture:
@@ -447,7 +447,7 @@ const data = [
       "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-5.jpg",
     ],
     description:
-      "If youâ€™re hunting for the perfect place to drop your bags between business meetings, look no further. Our loft is the ideal location. Located in the heart of La DÃ©fense, it has all the amenities you need to feel right at home.",
+      "If you're hunting for the perfect place to drop your bags between business meetings, look no further. Our loft is the ideal location. Located in the heart of La DÃ©fense, it has all the amenities you need to feel right at home.",
     host: {
       name: "Julie Donatella",
       picture:
@@ -479,7 +479,7 @@ const data = [
       "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-5.jpg",
     ],
     description:
-      "This charming apartment offers luxury features on the edge of Paris. A short walk from line 3, youâ€™ll have access to all the tourist attractions youâ€™ve always dreamed about.",
+      "This charming apartment offers luxury features on the edge of Paris. A short walk from line 3, you'll have access to all the tourist attractions you've always dreamed about.",
     host: {
       name: "Julie Donatella",
       picture:

@@ -7,6 +7,7 @@ const RentalPropertyCard = () => {
   const { id } = useParams();
   const property = data.find((item) => item.id === id);
 
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [isDescriptionOpen, setIsDescriptionOpen] = useState(false);
   const [isAmenitiesOpen, setIsAmenitiesOpen] = useState(false);
 
@@ -18,6 +19,18 @@ const RentalPropertyCard = () => {
       </div>
     );
   }
+
+  const pictures = property.pictures || [];
+
+  const handleNextImage = () => {
+    setCurrentImageIndex((prevIndex) => (prevIndex + 1) % pictures.length);
+  };
+
+  const handlePrevImage = () => {
+    setCurrentImageIndex(
+      (prevIndex) => (prevIndex - 1 + pictures.length) % pictures.length
+    );
+  };
 
   const toggleDescription = () => {
     setIsDescriptionOpen(!isDescriptionOpen);
@@ -31,11 +44,30 @@ const RentalPropertyCard = () => {
     <div className="rental-property-card">
       {/* Image Section */}
       <section className="property-header">
-        <img
-          src={property.cover}
-          alt={property.title}
-          className="property-image-carousel"
-        />
+        <div className="carousel-container">
+          <button
+            className="carousel-arrow left-arrow"
+            onClick={handlePrevImage}
+            aria-label="Previous image"
+          >
+            &#8249;
+          </button>
+          <img
+            src={pictures[currentImageIndex]}
+            alt={`${property.title} image ${currentImageIndex + 1}`}
+            className="property-image-carousel"
+          />
+          <button
+            className="carousel-arrow right-arrow"
+            onClick={handleNextImage}
+            aria-label="Next image"
+          >
+            &#8250;
+          </button>
+          <div className="carousel-indicator">
+            {currentImageIndex + 1}/{pictures.length}
+          </div>
+        </div>
         <div className="property-header-content">
           {/* Left Section */}
           <div className="property-header-left">
