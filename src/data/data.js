@@ -12,7 +12,7 @@ const data = [
       "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg",
     ],
     description:
-      "Your home away from home. You'll instantly feel at home in our apartmentâ€”whether you're coming from the other side of the world or from just a few metro stops away.",
+      "Your home away from home. You'll instantly feel at home in our apartments whether you're coming from the other side of the world or from just a few metro stops away.",
     host: {
       name: "Nathalie Jean",
       picture:
@@ -212,7 +212,7 @@ const data = [
       "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-7-6.jpg",
     ],
     description:
-      "This superb apartment will surprise you with its charm. Fully refurbished and tastefully equipped. The spacious rooms will make you wonder if you're really in Paris. Simply step outside, and you'll find yourself in the heart of the finest attractions in Parisâ€”the Louvre, the Eiffel Tower, and the Grand Palais are all a short walk away. Come discover Paris!",
+      "This superb apartment will surprise you with its charm. Fully refurbished and tastefully equipped. The spacious rooms will make you wonder if you're really in Paris. Simply step outside, and you'll find yourself in the heart of the finest attractions in Pariss the Louvre, the Eiffel Tower, and the Grand Palais are all a short walk away. Come discover Paris!",
     host: {
       name: "Sebastien Fournier",
       picture:
