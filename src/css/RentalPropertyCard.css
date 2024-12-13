@@ -185,14 +185,14 @@
 
 .carousel-arrow {
   position: absolute;
-  top: 50%;
+  top: 46%;
   transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, -0.5);
   color: white;
   border: none;
   padding: 10px;
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 6rem;
   z-index: 2;
 }
 
@@ -206,7 +206,7 @@
 
 .carousel-indicator {
   position: absolute;
-  bottom: 10px;
+  bottom: 40px;
   left: 50%;
   transform: translateX(-50%);
   background-color: rgba(0, 0, 0, 0.7);
