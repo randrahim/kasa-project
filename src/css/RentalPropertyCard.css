@@ -1,10 +1,10 @@
-/* Main Container */
 .rental-property-card {
-  max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
   font-family: Arial, sans-serif;
   color: #333;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1024px;
 }
 
 /* Property Header Section */
@@ -153,9 +153,6 @@
 }
 
 .dropdown-content p {
-  /* font-size: 1.41rem;
-  line-height: 1.6;
-  color: #555; */
   margin: 0;
 }
 
@@ -164,10 +161,6 @@
   padding: 0;
   margin: 0;
 }
-
-/* .dropdown-content li {
-  margin: 5px 0;
-}  */
 
 .dropdown-content p,
 .dropdown-content ul,
@@ -214,4 +207,131 @@
   padding: 5px 10px;
   border-radius: 10px;
   font-size: 1rem;
+}
+
+/* Mobile adjustments for property-details section */
+@media screen and (max-width: 768px) {
+  /* Adjust Header Content */
+  .property-header-content {
+    flex-direction: column; /* Stack content vertically */
+    align-items: flex-start; /* Align to the left */
+    gap: 15px; /* Add spacing */
+  }
+
+  .property-header-left h1 {
+    font-size: 1.5rem; /* Smaller font size */
+    margin-bottom: 5px; /* Less margin */
+    color: #ff6f61; /* Matching color */
+  }
+
+  .property-header-left p {
+    font-size: 1rem;
+    color: #333;
+  }
+
+  /* Tags styling */
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Align tags to the left */
+    gap: 10px; /* Spacing between tags */
+  }
+
+  .tag {
+    padding: 5px 20px; /* Smaller padding */
+    font-size: 12px; /* Adjust font size */
+    text-align: center;
+  }
+
+  /* Adjust Right Section */
+  .property-header-right {
+    align-items: flex-start; /* Align host content to the left */
+    text-align: left;
+  }
+
+  .host-info {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .host-info p {
+    font-size: 1rem; /* Adjust font size for host name */
+    margin: 0;
+    color: #333;
+  }
+
+  .host-picture {
+    width: 40px; /* Smaller host image */
+    height: 40px;
+  }
+
+  .rating span {
+    font-size: 1.5rem; /* Adjust star size */
+    color: #ff6f61;
+  }
+
+  /* Dropdown Section */
+  .property-details {
+    flex-direction: column; /* Stack dropdowns vertically */
+    gap: 10px; /* Add spacing */
+  }
+
+  .dropdown {
+    width: 100%; /* Full width dropdown */
+    margin-bottom: 10px; /* Add spacing below */
+  }
+
+  .dropdown-header {
+    font-size: 1rem; /* Smaller header font size */
+    padding: 10px; /* Compact padding */
+  }
+
+  .dropdown-arrow {
+    font-size: 1rem; /* Adjust arrow size */
+  }
+
+  .dropdown-content {
+    font-size: 0.9rem; /* Smaller content size */
+    line-height: 1.4;
+  }
+  .property-image-carousel {
+    margin-bottom: 0px;
+    height: 240px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .property-header-right {
+    display: flex;
+    flex-direction: row; /* Align children horizontally */
+    justify-content: space-between; /* Push content to both sides */
+    align-items: center; /* Vertically center align */
+    width: 100%; /* Ensure it spans the full width */
+    margin-top: 10px; /* Add spacing above */
+  }
+
+  .rating {
+    order: 1; /* Move rating to the left */
+    font-size: 1.2rem; /* Adjust star size for mobile */
+    color: #ff6f61;
+  }
+
+  .host-info {
+    order: 2; /* Move host-info to the right */
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Small gap between elements */
+  }
+
+  .host-picture {
+    width: 40px; /* Smaller picture size */
+    height: 40px;
+  }
+
+  .host-info p {
+    font-size: 1rem; /* Adjust font size for the host name */
+    color: #333;
+    margin: 0;
+  }
 }
