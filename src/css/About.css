@@ -49,8 +49,19 @@
   border-radius: 10px;
 }
 
-.accordion-title span {
-  font-size: 14px;
+.accordion-arrow {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.accordion-arrow svg {
+  width: 16px;
+  height: 16px;
+  stroke: white;
+}
+
+.accordion-arrow.open {
+  transform: rotate(180deg);
 }
 
 @media screen and (max-width: 768px) {

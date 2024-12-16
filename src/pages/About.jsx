@@ -59,7 +59,26 @@ function About() {
               onClick={() => toggleAccordion(index)}
             >
               {item.title}
-              <span>{openAccordions.includes(index) ? "▲" : "▼"}</span>
+              <span
+                className={`accordion-arrow ${
+                  openAccordions.includes(index) ? "open" : ""
+                }`}
+                aria-hidden="true"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="16"
+                  height="16"
+                  stroke="white"
+                  fill="none"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <polyline points="18 15 12 9 6 15" />
+                </svg>
+              </span>
             </div>
             {openAccordions.includes(index) && (
               <div className="accordion-content">{item.content}</div>
