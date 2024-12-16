@@ -89,6 +89,11 @@
   z-index: 1;
 }
 
+@media (max-width: 1023px) {
+  .property-card {
+    height: 240px;
+  }
+}
 /* Responsive Design for Mobile */
 @media (max-width: 768px) {
   .properties-grid {

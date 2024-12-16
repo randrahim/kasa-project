@@ -1,7 +1,10 @@
 .App {
   text-align: center;
-  margin: 40px auto;
+  margin: 40px;
   max-width: 1024px;
+  display: flex;
+  flex-direction: column;
+  min-height: 78vh;
 }
 
 /***** The styles of 404  *****/
