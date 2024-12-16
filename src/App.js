@@ -19,11 +19,11 @@ function NotFound() {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/kasa-project">
       <Header />
       <div className="App">
         <Routes>
-          <Route path="/" element={<Home />} /> {/* Use Home component */}
+          <Route path="/" element={<Home />} />
           <Route path="/property/:id" element={<RentalPropertyCard />} />
           <Route path="/about" element={<About />} />
           <Route path="*" element={<NotFound />} />
