@@ -114,8 +114,21 @@ const RentalPropertyCard = () => {
             <span>Description</span>
             <span
               className={`dropdown-arrow ${isDescriptionOpen ? "open" : ""}`}
+              aria-hidden="true"
             >
-              ⬆
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="16"
+                height="16"
+                stroke="white"
+                fill="none"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <polyline points="18 15 12 9 6 15" />
+              </svg>
             </span>
           </div>
           <div
@@ -129,8 +142,23 @@ const RentalPropertyCard = () => {
         <div className="dropdown">
           <div className="dropdown-header" onClick={toggleAmenities}>
             <span>Amenities</span>
-            <span className={`dropdown-arrow ${isAmenitiesOpen ? "open" : ""}`}>
-              ⬆
+            <span
+              className={`dropdown-arrow ${isAmenitiesOpen ? "open" : ""}`}
+              aria-hidden="true"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="16"
+                height="16"
+                stroke="white"
+                fill="none"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <polyline points="18 15 12 9 6 15" />
+              </svg>
             </span>
           </div>
           <div className={`dropdown-content ${isAmenitiesOpen ? "open" : ""}`}>
