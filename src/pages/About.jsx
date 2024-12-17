@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../css/About.css";
+import "../css/About.scss";
 
 function About() {
   const [openAccordions, setOpenAccordions] = useState([]); // Array to track open accordions
