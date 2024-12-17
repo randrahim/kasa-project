@@ -39,12 +39,12 @@ function About() {
 
   return (
     <div className="about-container">
-      <div className="banner">
-        <img
+      <div className="banner-image">
+        {/* <img
           src="https://s3-alpha-sig.figma.com/img/56fa/e17e/b9995860bb6384a77ca7dc9bf52da3be?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=EHRE6y-SztnqCkmrfgqnD4lIxxJChpg1MfgXLBBOnMIYmK4USEH1QnyiYOgLOVLg5Xk-mvOrGNiC6vo6IoCTxZnRO4y6grAT6TGBpXfeqBXPO5B0AmegUilme35S6nLtyzBlNSDNfeNFxGpXyKTzh8IZM4VnOS3v2FCfoSAePEOIfTnVRv7ZMIzzCggjdQgUGfjCXp1fGJYVb82VRm64XyuHlcbA5mPqoN7VLaDllhc0ezCAM-kDtG6wd0jDQ-imPpjPtjaLW~rHIyQRiqATzdRjHreXY5DdmFfzzVQSRao3NfLU4Sa-2T1kovfDS-CNF7KYzChY6dZ-cgAE8Rbi9Q__"
           alt="Scenic Banner"
           className="banner-image"
-        />
+        /> */}
       </div>
       <div className="accordion">
         {accordionItems.map((item, index) => (
