@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "./App.css";
+import "./App.scss";
 import About from "./pages/About.jsx";
 import Home from "./pages/Home.jsx";
 import RentalPropertyCard from "./pages/RentalPropertyCard";

@@ -1,0 +1,43 @@
+@import "./css/variables.scss"; // Import variables
+
+.App {
+  text-align: center;
+  margin: 40px auto;
+  max-width: 1024px;
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+
+  @media screen and (max-width: 1025px) {
+    margin-left: 30px;
+    margin-right: 30px;
+    min-height: 80vh;
+  }
+
+  @media screen and (max-width: 768px) {
+    margin: 30px;
+  }
+}
+
+.not-found {
+  text-align: center;
+  padding: $spacing;
+
+  h1 {
+    font-size: 100px;
+    color: $primary-color;
+  }
+
+  p {
+    font-size: $font-size-large;
+    color: $primary-color;
+  }
+
+  a {
+    display: inline-block;
+    margin-top: $spacing;
+    margin-bottom: $spacing;
+    color: $text-color;
+    font-size: $font-size-small;
+  }
+}
