@@ -11,10 +11,13 @@
   background-image: url("../images/about-bg.jpg");
   background-size: cover;
   background-position: center;
-  border-radius: 25px;
   height: 223px;
-  margin: 0px auto;
-  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  /* margin: 0px auto;
+  object-fit: cover; */
 }
 
 .accordion {
