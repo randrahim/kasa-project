@@ -1,0 +1,26 @@
+// Variables
+$footer-bg-color: #131313;
+$text-color: white;
+$font-family: Arial, sans-serif;
+
+// Footer Styles
+.footer {
+  background-color: $footer-bg-color;
+  color: $text-color;
+  text-align: center;
+  padding: 30px 0;
+  font-size: 14px;
+  width: 100%;
+
+  p {
+    margin: 0;
+    font-family: $font-family;
+  }
+
+  .logo {
+    img {
+      width: 100px;
+      margin-bottom: 10px;
+    }
+  }
+}
