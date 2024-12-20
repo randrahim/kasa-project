@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import data from "../data/data";
-import "../css/RentalPropertyCard.css";
+import "../css/RentalPropertyCard.scss";
 
 const RentalPropertyCard = () => {
   const { id } = useParams();
