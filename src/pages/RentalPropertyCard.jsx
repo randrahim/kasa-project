@@ -15,7 +15,8 @@ const RentalPropertyCard = () => {
     return (
       <div className="not-found">
         <h1>404</h1>
-        <p>Property not found.</p>
+        <p>Oops! The property that you are looking for doesn’t exist.</p>
+        <a href="../../kasa-project">Return to home page</a>
       </div>
     );
   }

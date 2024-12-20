@@ -12,7 +12,7 @@ function NotFound() {
     <div className="not-found">
       <h1>404</h1>
       <p>Oops! The page you’re looking for doesn’t exist.</p>
-      <a href="/">Return to home page</a>
+      <a href="/kasa-project">Return to home page</a>
     </div>
   );
 }
