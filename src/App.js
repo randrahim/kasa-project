@@ -17,9 +17,20 @@ function NotFound() {
   );
 }
 
+// Future flag solution
+const futureFlags = {
+  future: {
+    v7_startTransition: true,
+    v7_relativeSplatPath: true,
+    v7_fetcherPersist: true,
+    v7_normalizeFormMethod: true,
+    v7_partialHydration: true,
+  },
+};
+
 function App() {
   return (
-    <Router basename="/kasa-project">
+    <Router basename="/kasa-project" {...futureFlags}>
       <Header />
       <div className="App">
         <Routes>
