@@ -46,28 +46,34 @@ const RentalPropertyCard = () => {
       {/* Image Section */}
       <section className="property-header">
         <div className="carousel-container">
-          <button
-            className="carousel-arrow left-arrow"
-            onClick={handlePrevImage}
-            aria-label="Previous image"
-          >
-            &#8249;
-          </button>
+          {pictures.length > 1 && (
+            <button
+              className="carousel-arrow left-arrow"
+              onClick={handlePrevImage}
+              aria-label="Previous image"
+            >
+              &#8249;
+            </button>
+          )}
           <img
             src={pictures[currentImageIndex]}
             alt={`${property.title} image ${currentImageIndex + 1}`}
             className="property-image-carousel"
           />
-          <button
-            className="carousel-arrow right-arrow"
-            onClick={handleNextImage}
-            aria-label="Next image"
-          >
-            &#8250;
-          </button>
-          <div className="carousel-indicator">
-            {currentImageIndex + 1}/{pictures.length}
-          </div>
+          {pictures.length > 1 && (
+            <button
+              className="carousel-arrow right-arrow"
+              onClick={handleNextImage}
+              aria-label="Next image"
+            >
+              &#8250;
+            </button>
+          )}
+          {pictures.length > 1 && (
+            <div className="carousel-indicator">
+              {currentImageIndex + 1}/{pictures.length}
+            </div>
+          )}
         </div>
         <div className="property-header-content">
           {/* Left Section */}
