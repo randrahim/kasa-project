@@ -18,22 +18,22 @@ function About() {
     {
       title: "Reliability",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "The announcements posted on Kasa guarantee total reliability. The photos match the accommodations, and all information is regularly verified by our teams.",
     },
     {
       title: "Respect",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Kindness is one of the founding values of Kasa. Any discriminatory behavior or disturbance to the neighborhood will result in exclusion from our platform.",
     },
     {
       title: "Service",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Kindness is one of the founding values of Kasa. Any discriminatory behavior or disturbance to the neighborhood will result in exclusion from our platform.",
     },
     {
       title: "Security",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Security is Kasa's priority. Both for our hosts and travelers, each accommodation meets the security criteria established by our services. By leaving a rating for the host or tenant, this allows our teams to verify that standards are being respected. We also organize workshops on home security for our hosts.",
     },
   ];
 
